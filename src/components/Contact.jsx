@@ -19,10 +19,18 @@ const Contact = () => {
                     <div className='space-y-4'>
                         <p className='font-cabinet font-medium text-lg text-gray-300'>or  Follow me</p>
                         <div className='flex gap-6'>
-                            <img src='/fb.svg' className='w-7 h-7'></img>
-                            <img src='/x.svg' className='w-7 h-7'></img>
-                            <img src='/git.svg' className='w-7 h-7'></img>
-                            <img src='/insta.svg' className='w-7 h-7'></img>
+                            <a href="https://www.facebook.com/your-profile" target="_blank" rel="noreferrer">
+                                <img src='/fb.svg' className='w-7 h-7' alt="Facebook" />
+                            </a>
+                            <a href="https://twitter.com/Sandeep_3Dev/" target="_blank" rel="noreferrer">
+                                <img src='/x.svg' className='w-7 h-7' alt="Example" />
+                            </a>
+                            <a href="https://github.com/Sandeep18JS" target="_blank" rel="noreferrer">
+                                <img src='/git.svg' className='w-7 h-7' alt="GitHub" />
+                            </a>
+                            <a href="https://www.instagram.com/sandeep_3dev/#" target="_blank" rel="noreferrer">
+                                <img src='/insta.svg' className='w-7 h-7' alt="Instagram" />
+                            </a>
                         </div>
                     </div>
                 </div>
