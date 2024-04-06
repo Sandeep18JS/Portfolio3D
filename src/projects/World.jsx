@@ -6,7 +6,7 @@ import { OrbitControls } from '@react-three/drei'
 
 const World = () => {
     return (
-        <div className='h-screen  w-full z-40'>
+        <div className='w-full h-[500px] lg:h-screen  lg:w-full z-40'>
             <Canvas camera={{ position: [0, 0, 0.1], fov: 35 }}>
                 <OrbitControls
                     enableZoom={false}

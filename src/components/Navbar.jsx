@@ -40,7 +40,7 @@ const Navbar = () => {
     const isActive = (href) => window.location.hash === href;
 
     return (
-        <div className="font-cabinet  fixed inset-0 flex justify-center mx-auto max-w-md mt-4 rounded-full bg-[#00000040] items-center h-[54px] shadow-sm saturate-100 backdrop-blur-md z-40 " style={navbarStyle}>
+        <div className="font-cabinet  fixed inset-0 flex justify-center mx-auto max-w-sm lg:max-w-md mt-4 rounded-full bg-[#00000040] items-center h-[54px] shadow-sm saturate-100 backdrop-blur-md z-40 " style={navbarStyle}>
             <div className="flex flex-row items-start gap-8">
                 <a className={`text-gray-400 transition-colors hover:text-gray-200 ${isActive('#about') ? 'text-white' : ''}`}
                     href="#about" onClick={() => { window.scrollTo(0, 750) }}>

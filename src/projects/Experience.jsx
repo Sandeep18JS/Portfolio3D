@@ -28,7 +28,7 @@ const Experience = () => {
 
     return (
         <>
-            <group ref={containerRef} position={[0, -0.01, 0]}>
+            <group ref={containerRef} position={[0, 0.1, 0]}>
                 <Carousel links={links} texts={texts} />
             </group>
         </>
@@ -93,13 +93,13 @@ const Card = ({ url, texts, i, radius = 2.8, count = 12, ...props }) => {
                     position={[Math.sin((i / count) * Math.PI * 2.0) * radius, -0.72, Math.cos((i / count) * Math.PI * 2.0) * radius]}
                 >
                     <div className='flex flex-col gap-1'>
-                        <h1 className=' text-white text-2xl font-cabinet font-bold'>{texts[i].text}</h1>
-                        <p className='mb-2 w-[400px] text-gray-400 text-[15px] font-satoshi font-normal '>{texts[i].about}</p>
+                        <h1 className=' text-white text-xl lg:text-2xl font-cabinet font-bold'>{texts[i].text}</h1>
+                        <p className='mb-2 w-[300px] lg:w-[400px] text-gray-400 text-[13px] lg:text-[15px] font-satoshi font-normal '>{texts[i].about}</p>
                         <div className='flex gap-6 justify-center'>
-                            <p className='border-gray-400 border flex w-[130px] justify-center font-cabinet text-base rounded-lg items-center text-white h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
+                            <p className='border-gray-400 border flex w-[100px] lg:w-[130px] justify-center font-cabinet text-sm lg:text-base rounded-lg items-center text-white h-[24px] lg:h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
                                 {texts[i].tech1}
                             </p>
-                            <p className='border-gray-400 border  flex w-[130px] justify-center font-cabinet text-base  rounded-lg items-center text-white h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
+                            <p className='border-gray-400 border  flex w-[100px] lg:w-[130px] justify-center font-cabinet text-sm lg:text-base  rounded-lg items-center text-white h-[24px] lg:h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
                                 {texts[i].tech2}
                             </p>
                         </div>
