@@ -3,10 +3,10 @@ import World from '../skills/World'
 
 const About = () => {
     return (
-        <div className='max-w-7xl  mx-auto text-center relative  lg:mt-24'>
+        <div className='max-w-7xl  mx-auto text-center relative  lg:mt-24 lg:mb-14'>
             <h1 className='font-cabinet font-extrabold text-white text-4xl lg:text-5xl'>About</h1>
 
-            <div className='flex flex-col lg:flex-row lg:gap-2 '>
+            <div className='flex flex-col w-full lg:flex-row lg:gap-2 '>
                 <div className='font-satoshi w-full px-6  lg:px-16 lg:py-14'>
                     <p className='text-2xl lg:text-3xl text-gray-100 text-justify font-semibold mt-14 mb-8'>WHO AM I  ?</p>
                     <div className='space-y-5 text-md lg:text-lg text-gray-300 font-thin  text-justify '>
