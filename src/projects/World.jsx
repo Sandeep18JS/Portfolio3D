@@ -14,7 +14,7 @@ const World = () => {
                     enableRotate={true}
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2} />
-                <Suspense>
+                <Suspense fallback={null}>
                     <Experience />
                 </Suspense>
             </Canvas>
@@ -23,3 +23,5 @@ const World = () => {
 }
 
 export default World
+
+

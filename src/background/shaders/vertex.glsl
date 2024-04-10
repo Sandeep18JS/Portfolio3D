@@ -85,7 +85,7 @@ void main() {
 	float incline = uv.x * 0.5;
 	float offset = incline * mix(-0.25, 0.25, uv.y);
 
-	float noise = snoise(vec3(noiseCoord.x + u_time * 3.0, noiseCoord.y, u_time * 10.0));
+	float noise = snoise(vec3(noiseCoord.x + u_time * 4.0, noiseCoord.y, u_time * 10.0));
 	vec3 pos = vec3(position.x, position.y, position.z + noise * 1. + tilt + incline + offset);
 
 	vColor = u_color[2];
