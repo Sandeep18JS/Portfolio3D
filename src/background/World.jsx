@@ -7,6 +7,7 @@ const World = () => {
         <div className='absolute w-full h-full '>
             <Canvas>
                 <Suspense fallback={null}>
+
                     <Experience />
                 </Suspense>
             </Canvas>
