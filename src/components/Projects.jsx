@@ -41,10 +41,9 @@ const Projects = () => {
                     </p>
                     <div className='flex gap-6 justify-center'>
                         <p className='border-gray-400 border flex w-[100px] lg:w-[130px] justify-center font-cabinet text-sm lg:text-base rounded-lg items-center text-white h-[24px] lg:h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
-                            Next js
-                        </p>
+                            React                        </p>
                         <p className='border-gray-400 border  flex w-[100px] lg:w-[130px] justify-center font-cabinet text-sm lg:text-base  rounded-lg items-center text-white h-[24px] lg:h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
-                            Gsap                        </p>
+                            Three Js                        </p>
                     </div>
                 </div>
                 <div className='lg:ml-2 w-full   bg-[#00000030] shadow-equal shadow-[#150b46]  rounded-lg  saturate-100 backdrop-blur-md p-6' >
@@ -59,7 +58,7 @@ const Projects = () => {
                             Next js
                         </p>
                         <p className='border-gray-400 border  flex w-[100px] lg:w-[130px] justify-center font-cabinet text-sm lg:text-base  rounded-lg items-center text-white h-[24px] lg:h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
-                            Gsap                        </p>
+                            Shadcn UI                        </p>
                     </div>
                 </div>
             </div>
