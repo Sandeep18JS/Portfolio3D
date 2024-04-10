@@ -1,4 +1,4 @@
-import { Html, Image, } from '@react-three/drei'
+import { Edges, Html, Image, } from '@react-three/drei'
 import React, { useEffect, useRef, useState } from 'react'
 import './util'
 import { useFrame } from '@react-three/fiber'
@@ -109,7 +109,7 @@ const Card = ({ url, texts, i, radius = 2.8, count = 12, ...props }) => {
             )}
             <Image
                 url='/image.jpg'
-                radi
+
                 us={0.03}
                 color='#000050'
                 transparent={true}
@@ -119,7 +119,14 @@ const Card = ({ url, texts, i, radius = 2.8, count = 12, ...props }) => {
                 {...props}
                 toneMapped={false}>
                 <bentPlaneGeometry args={[0.03, 1.4, 1.1, 20, 20]} />
+                <Edges
+                    color='#150b46'
+                    linewidth={1.5}
+
+                />
+
             </Image>
+
         </>
     )
 }

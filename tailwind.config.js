@@ -11,6 +11,9 @@ export default {
         cabinet: ['Cabinet Grotesk', 'sans-serif'],
         satoshi: ['Satoshi', 'sans-serif'],
       },
+      boxShadow: {
+        'equal': '0 0 10px rgba(0, 0, 0, 0.2)',
+      },
     },
   },
   plugins: [],

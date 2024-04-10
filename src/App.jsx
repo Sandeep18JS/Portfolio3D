@@ -8,9 +8,11 @@ import React, { useState, useEffect } from 'react';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoadingH, setIsLoadingH] = useState(true);
 
   useEffect(() => {
     const timeoutId = setTimeout(() => setIsLoading(false), 3000);
+    const timeoutIdH = setTimeout(() => setIsLoadingH(false), 3300);
 
     return () => clearTimeout(timeoutId);
   }, []);
@@ -28,7 +30,7 @@ const App = () => {
           <World />
           <div>
             <Navbar />
-            <Hero />
+            {isLoadingH ? <div className='w-full h-screen'></div> : (<Hero />)}
             <About />
             <Projects />
             <Contact />

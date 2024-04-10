@@ -10,7 +10,7 @@ const Projects = () => {
             </div>
 
             <div className='w-[420px] md:w-[500px]  mx-auto flex flex-col gap-4 lg:hidden mt-10 px-6'>
-                <div className='lg:ml-2 w-full bg-[#00000030]  rounded-lg shadow-sm saturate-100 backdrop-blur-md p-6'>
+                <div className='lg:ml-2 w-full bg-[#00000030] shadow-equal shadow-[#150b46] rounded-lg  saturate-100 backdrop-blur-md p-6'>
 
                     <a href='https://furniture-two-eta.vercel.app/'>
                         <img src='projects/img2.png' className=' mx-auto  rounded mb-2'>
@@ -30,7 +30,7 @@ const Projects = () => {
                             Gsap                        </p>
                     </div>
                 </div>
-                <div className='lg:ml-2 w-full    bg-[#00000030]  rounded-lg shadow-sm saturate-100 backdrop-blur-md p-6'>
+                <div className='lg:ml-2 w-full    bg-[#00000030] shadow-equal shadow-[#150b46]  rounded-lg saturate-100 backdrop-blur-md p-6'>
                     <a href='https://oak-haven.vercel.app/'>
 
                         <img src='projects/img6.png' className=' mx-auto  rounded mb-2' />
@@ -47,7 +47,7 @@ const Projects = () => {
                             Gsap                        </p>
                     </div>
                 </div>
-                <div className='lg:ml-2 w-full   bg-[#00000030]  rounded-lg shadow-sm saturate-100 backdrop-blur-md p-6' >
+                <div className='lg:ml-2 w-full   bg-[#00000030] shadow-equal shadow-[#150b46]  rounded-lg  saturate-100 backdrop-blur-md p-6' >
                     <a href='https://fin-serve.vercel.app/'>
                         <img src='projects/img1.png' className=' mx-auto  rounded mb-2' />
                     </a>
