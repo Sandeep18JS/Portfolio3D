@@ -10,28 +10,34 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timeoutId = setTimeout(() => setIsLoading(false), 500);
+    const timeoutId = setTimeout(() => setIsLoading(false), 3000);
 
     return () => clearTimeout(timeoutId);
   }, []);
   return (
     <>
-      <div className='absolute w-full '>
-        <World />
-        <div>
-          <Navbar />
-
-          {isLoading ? (
-            <div className='w-full h-screen'></div>
-          ) : (
-            <Hero />
-          )}
-          <About />
-          <Projects />
-          <Contact />
+      {isLoading ? (
+        <div className="loading-container">
+          <div className='bg-black w-screen h-screen flex flex-col justify-center items-center'>
+            <div className="loader border-t-[6px] rounded-full border-[#150b46] animate-spin aspect-square w-16 flex justify-center items-center ">
+            </div>
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className='absolute w-full '>
+          <World />
+          <div>
+            <Navbar />
+            <Hero />
+            <About />
+            <Projects />
+            <Contact />
+          </div>
+        </div>
+      )}
     </>
+
+
   )
 }
 

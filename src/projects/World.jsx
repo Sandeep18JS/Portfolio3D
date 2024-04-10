@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
 import Experience from './Experience'
-import { OrbitControls } from '@react-three/drei'
+import { Html, OrbitControls } from '@react-three/drei'
 
 
 const World = () => {
