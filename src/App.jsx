@@ -1,45 +1,19 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Projects from './components/Projects'
-import About from './components/About'
-import Contact from './components/Contact'
-import World from './background/World'
-import React, { useState, useEffect } from 'react';
+
+import React from 'react';
+import { Route, Routes } from 'react-router-dom'
+import Home from './components/Home';
+import BlogList from './blogs/Blog';
+import Blogone from './blogs/Blogone';
+import blogs from './blogs/util';
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  const [isLoadingH, setIsLoadingH] = useState(true);
 
-  useEffect(() => {
-    const timeoutId = setTimeout(() => setIsLoading(false), 3000);
-    const timeoutIdH = setTimeout(() => setIsLoadingH(false), 3300);
-
-    return () => clearTimeout(timeoutId);
-  }, []);
   return (
-    <>
-      {isLoading ? (
-        <div className="loading-container">
-          <div className='bg-black w-screen h-screen flex flex-col justify-center items-center'>
-            <div className="loader border-t-[6px] rounded-full border-[#150b46] animate-spin aspect-square w-16 flex justify-center items-center ">
-            </div>
-          </div>
-        </div>
-      ) : (
-        <div className='absolute w-full '>
-          <World />
-          <div>
-            <Navbar />
-            {isLoadingH ? <div className='w-full h-screen'></div> : (<Hero />)}
-            <About />
-            <Projects />
-            <Contact />
-          </div>
-        </div>
-      )}
-    </>
-
-
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/blog' element={<BlogList blogs={blogs} />} />
+      <Route path='/blog/:threejs+shaders' element={<Blogone blogone={blogs} />} />
+    </Routes>
   )
 }
 

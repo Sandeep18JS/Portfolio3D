@@ -16,7 +16,7 @@ const World = () => {
     });
 
     return (
-        <div className='w-full h-[500px] lg:w-1/2 xl:w-full lg:h-[600px] z-40'>
+        <div className='w-full h-[500px] lg:w-1/2 xl:w-full lg:h-[600px] '>
             <Canvas camera={{ position: [0, 0, 47.5], fov: 95 }}>
                 <Suspense>
                     <Experience />
