@@ -14,6 +14,9 @@ export default {
       boxShadow: {
         'equal': '0 0 10px rgba(0, 0, 0, 0.2)',
       },
+      screens: {
+        'xs': '405px',
+      },
     },
   },
   plugins: [],

@@ -41,110 +41,103 @@ export const texts = [
         about: "A Finance Dashboard website for tracking and analyzing financial data to facilitate informed decision-making",
         tech1: "Next js",
         tech2: "Shadcn UI",
+        link: 'https://fin-serve.vercel.app/',
+
+
     },
     {
         text: "Furniture",
         about: "A Furniture website with captivating animations, offering a delightful browsing experience",
         tech1: "Next js",
         tech2: "GSAP",
+        link: 'https://furniture-two-eta.vercel.app/',
+
     },
     {
         text: "Pawsofindia",
         about: "An Indian dog breeds website with captivating visuals, providing an immersive experience for enthusiasts",
         tech1: "React",
         tech2: "Tailwind CSS",
+        link: 'https://paws-of-india.vercel.app/',
+
     },
     {
-        text: "Portfolio",
-        about: "My previous Portfolio, a glimpse into my journey and achievements",
-        tech1: "React",
-        tech2: "SASS",
+        text: "Shop Co",
+        about: "A beautifully designed e-commerce store that provides a seamless shopping experience",
+        tech1: "Next js",
+        tech2: "Sanity CMS",
+        link: 'https://shop-co-e-commerce.vercel.app/',
+
+
     },
     {
         text: "Roommates",
         about: "Expense Tracker: Easily manage shared expenses and bills, fostering financial harmony in shared living spaces",
         tech1: "React",
         tech2: "Tailwind CSS",
+        link: 'https://mern-roommates.vercel.app/',
+
     },
     {
         text: "Oakhaven",
         about: " Immersive landing page incorporating Three.js effects for beer aficionados",
         tech1: "Three js",
         tech2: "React",
+        link: 'https://oak-haven.vercel.app/',
+
     },
     {
         text: "Finserve",
         about: "A Finance Dashboard website for tracking and analyzing financial data to facilitate informed decision-making",
         tech1: "Next js",
         tech2: "Shadcn UI",
+        link: 'https://fin-serve.vercel.app/',
+
+
     },
     {
         text: "Furniture",
         about: "A Furniture website with captivating animations, offering a delightful browsing experience",
         tech1: "Next js",
         tech2: "GSAP",
+        link: 'https://furniture-two-eta.vercel.app/',
+
+
     },
     {
         text: "Pawsofindia",
         about: "An Indian dog breeds website with captivating visuals, providing an immersive experience for enthusiasts",
         tech1: "React",
         tech2: "Tailwind CSS",
+        link: 'https://paws-of-india.vercel.app/',
+
+
     },
     {
-        text: "Portfolio",
-        about: "My previous Portfolio, a glimpse into my journey and achievements",
-        tech1: "React",
-        tech2: "SASS",
+        text: "Shop Co",
+        about: "A beautifully designed e-commerce store that provides a seamless shopping experience",
+        tech1: "Next js",
+        tech2: "Sanity CMS",
+        tech3: "Framer Motion",
+        link: 'https://shop-co-e-commerce.vercel.app/',
+
     },
     {
         text: "Roommates",
         about: "Expense Tracker: Easily manage shared expenses and bills, fostering financial harmony in shared living spaces",
         tech1: "React",
         tech2: "Tailwind CSS",
+        link: 'https://mern-roommates.vercel.app/',
+
+
     },
     {
         text: "Oakhaven",
         about: " Immersive landing page incorporating Three.js effects for beer aficionados",
         tech1: "Three js",
         tech2: "React",
-    },
-]
+        link: 'https://oak-haven.vercel.app/',
 
-export const links = [
-    {
-        link: 'https://fin-serve.vercel.app/',
-    },
-    {
-        link: 'https://furniture-two-eta.vercel.app/',
-    },
-    {
-        link: 'https://paws-of-india.vercel.app/',
-    },
-    {
-        link: 'https://sandeep-portfolio1.netlify.app/',
-    },
-    {
-        link: 'https://mern-roommates.vercel.app/',
-    },
-    {
-        link: 'https://oak-haven.vercel.app/',
-    },
-    {
-        link: 'https://fin-serve.vercel.app/',
-    },
-    {
-        link: 'https://furniture-two-eta.vercel.app/',
-    },
-    {
-        link: 'https://paws-of-india.vercel.app/',
-    },
-    {
-        link: 'https://sandeep-portfolio1.netlify.app/',
-    },
-    {
-        link: 'https://mern-roommates.vercel.app/',
-    },
-    {
-        link: 'https://oak-haven.vercel.app/',
+
     },
 ]

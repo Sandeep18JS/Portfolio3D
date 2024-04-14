@@ -1,5 +1,6 @@
 import React from 'react'
 import World from '../projects/World'
+import { Link } from 'react-router-dom'
 
 const Projects = () => {
     return (
@@ -61,6 +62,10 @@ const Projects = () => {
                             Shadcn UI                        </p>
                     </div>
                 </div>
+            </div>
+            <div className='text-right p-6  lg:hidden'>
+                <Link to='/projects' className='text-white '>More &rarr; </Link>
+
             </div>
         </div>
     )

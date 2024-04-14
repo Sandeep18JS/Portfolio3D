@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blogone = ({ blogone }) => {
     return (
-        <div className='max-w-5xl mx-auto my-14 space-y-14 px-6 lg:px-0'>
+        <div className='max-w-5xl mx-auto my-14 space-y-14 px-6 lg:px-0' >
             <h1 className=' font-cabinet font-extrabold  text-white text-3xl lg:text-[40px]  text-center '>{blogone[0].excerpt}</h1>
             <img src={blogone[0].img} className=' rounded-xl mb-2  shadow-equal shadow-[#150b46]'>
             </img>

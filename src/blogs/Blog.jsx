@@ -20,7 +20,7 @@ const BlogSummary = ({ title, excerpt, slug, img }) => {
 const BlogList = ({ blogs }) => {
 
     return (
-        <div className='flex flex-col gap-10 my-10 px-6'>
+        <div className='flex flex-col gap-10 my-10 px-6' >
             <div className='flex  max-w-5xl mx-auto'>
                 <h1 className='font-cabinet font-extrabold  text-white text-4xl lg:text-5xl '>Blogs</h1>
             </div>

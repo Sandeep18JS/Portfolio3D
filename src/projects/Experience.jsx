@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import './util'
 import { useFrame } from '@react-three/fiber'
 import { easing } from 'maath'
-import { links, texts } from './util'
+import { texts } from './util'
 
 const Experience = () => {
     const containerRef = useRef()
@@ -29,7 +29,7 @@ const Experience = () => {
     return (
         <>
             <group ref={containerRef} position={[0, 0.1, 0]}>
-                <Carousel links={links} texts={texts} />
+                <Carousel texts={texts} />
             </group>
         </>
     )
@@ -39,11 +39,11 @@ export default Experience
 
 
 
-const Carousel = ({ texts, radius = 2.8, count = 12, links }) => {
+const Carousel = ({ texts, radius = 2.8, count = 12 }) => {
     const handleClick = (i) => {
-        const link = links[i]
+        const link = texts[i].link
         if (link) {
-            window.open(link.link, '_blank')
+            window.open(link, '_blank')
         }
     }
 
@@ -102,6 +102,7 @@ const Card = ({ url, texts, i, radius = 2.8, count = 12, ...props }) => {
                             <p className='border-gray-400 border  flex w-[100px] lg:w-[130px] justify-center font-cabinet text-sm lg:text-base  rounded-lg items-center text-white h-[24px] lg:h-[30px] bg-[#00000030]  shadow-sm saturate-100 backdrop-blur-md'>
                                 {texts[i].tech2}
                             </p>
+
                         </div>
                     </div>
 
