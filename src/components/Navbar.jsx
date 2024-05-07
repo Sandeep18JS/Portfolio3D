@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
@@ -54,12 +53,12 @@ const Navbar = () => {
                 <a className={`text-gray-400 transition-colors hover:text-gray-200 `} href="#home" onClick={() => { window.scrollTo(0, 0) }}>
                     <img src={`./home.png`} className='w-6 h-5' alt="Home"></img>
                 </a>
-                <Link className={`text-gray-400  transition-colors hover:text-gray-200 ${isActive('#blogs') ? 'text-white' : ''}`}
-                    to="/blog">
-                    Blog
-                </Link>
+                <a className={`text-gray-400 transition-colors hover:text-gray-200 ${isActive('#blogs') ? 'text-white' : ''}`}
+                    href="#blogs" onClick={() => { window.scrollTo(0, 2150) }}>
+                    Blogs
+                </a>
                 <a className={`text-gray-400 transition-colors hover:text-gray-200 ${isActive('#contact') ? 'text-white' : ''}`}
-                    href="#contact" onClick={() => { window.scrollTo(0, 2500) }}>
+                    href="#contact" onClick={() => { window.scrollTo(0, 2700) }}>
                     Contact
                 </a>
             </div>

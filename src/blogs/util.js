@@ -1,4 +1,4 @@
-const blogs = [
+export const blogs = [
     {
         title: "Three.js + Shaders",
         excerpt: " Best Resources for Learning Three.js and Shaders",
@@ -21,4 +21,18 @@ const blogs = [
     },
 ];
 
-export default blogs
+export const Homeblogs = [
+    {
+        title: "Three.js + Shaders",
+        excerpt: " Best Resources for Learning Three.js and Shaders",
+        slug: "threejs+shaders",
+        img: "/gradients/g4.png"
+    },
+    {
+        title: "Upcoming...",
+        excerpt: "Upcoming...",
+        slug: "upcoming",
+        img: "/gradients/g2.png"
+
+    },
+];

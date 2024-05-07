@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BlogSummary = ({ title, excerpt, slug, img }) => {
     return (
         <div className="bg-[#00000030] rounded-lg  shadow-equal shadow-[#150b46] saturate-100 backdrop-blur-md p-4">
-            <Link to={`/blog/${slug}`}>
+            <Link to={`/blogs/${slug}`}>
                 <img src={img} className=' rounded-md mb-2  '>
                 </img>
                 <h1 className=' text-white text-xl  font-cabinet font-bold mt-4'>{title}</h1>
@@ -20,7 +20,7 @@ const BlogSummary = ({ title, excerpt, slug, img }) => {
 const BlogList = ({ blogs }) => {
 
     return (
-        <div className='flex flex-col gap-10 my-10 px-6' >
+        <div className='flex flex-col gap-16 my-10 px-6' >
             <div className='flex  max-w-5xl mx-auto'>
                 <h1 className='font-cabinet font-extrabold  text-white text-4xl lg:text-5xl '>Blogs</h1>
             </div>
