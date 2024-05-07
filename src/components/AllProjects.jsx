@@ -6,7 +6,7 @@ const AllProjects = ({ projects }) => {
             <div>
                 {projects.map((project) => (
                     <div className=' mx-auto flex flex-col gap-4 lg:hidden mt-10 px-6' key={project.text}>
-                        <div className='lg:ml-2 w-full bg-[#00000030] shadow-equal shadow-[#150b46] rounded-lg  saturate-100 backdrop-blur-md p-6'>
+                        <div className='lg:ml-2 w-full bg-[#00000030] shadow-equal shadow-[#150b46] rounded-lg  saturate-100 backdrop-blur-md p-4'>
 
                             <a href={project.link}>
                                 <img src={`projects/img${project.i}.png`} className=' mx-auto  rounded mb-2'>
