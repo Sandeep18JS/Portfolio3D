@@ -54,6 +54,14 @@ export const texts = [
 
     },
     {
+        text: "Blog Website",
+        about: "A Blog Website, where I share my latest adventures and discoveries.",
+        tech1: "Next js",
+        tech2: "Sanity CMS",
+        link: 'https://sandeep-blog-eight.vercel.app/',
+
+    },
+    {
         text: "Pawsofindia",
         about: "An Indian dog breeds website with captivating visuals, providing an immersive experience for enthusiasts",
         tech1: "React",
@@ -70,14 +78,7 @@ export const texts = [
 
 
     },
-    {
-        text: "Roommates",
-        about: "Expense Tracker: Easily manage shared expenses and bills, fostering financial harmony in shared living spaces",
-        tech1: "React",
-        tech2: "Tailwind CSS",
-        link: 'https://mern-roommates.vercel.app/',
 
-    },
     {
         text: "Oakhaven",
         about: " Immersive landing page incorporating Three.js effects for beer aficionados",
@@ -105,6 +106,14 @@ export const texts = [
 
     },
     {
+        text: "Blog Website",
+        about: "A Blog Website,where I share my latest adventures and discoveries.",
+        tech1: "Next js",
+        tech2: "Sanity CMS",
+        link: 'https://sandeep-blog-eight.vercel.app/',
+
+    },
+    {
         text: "Pawsofindia",
         about: "An Indian dog breeds website with captivating visuals, providing an immersive experience for enthusiasts",
         tech1: "React",
@@ -122,15 +131,7 @@ export const texts = [
         link: 'https://shop-co-e-commerce.vercel.app/',
 
     },
-    {
-        text: "Roommates",
-        about: "Expense Tracker: Easily manage shared expenses and bills, fostering financial harmony in shared living spaces",
-        tech1: "React",
-        tech2: "Tailwind CSS",
-        link: 'https://mern-roommates.vercel.app/',
 
-
-    },
     {
         text: "Oakhaven",
         about: " Immersive landing page incorporating Three.js effects for beer aficionados",
