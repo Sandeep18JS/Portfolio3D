@@ -17,7 +17,7 @@ const Navbar = () => {
                 clearTimeout(visibleTimeout);
                 const timeout = setTimeout(() => {
                     setVisible(false);
-                }, 3000);
+                }, 5000);
                 setVisibleTimeout(timeout);
             } else {
                 setVisible(false);
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <img src={`./home.png`} className='w-6 h-5' alt="Home"></img>
                 </a>
                 <a className={`text-gray-400 transition-colors hover:text-gray-200 ${isActive('#blogs') ? 'text-white' : ''}`}
-                    href="#blogs" onClick={() => { window.scrollTo(0, 2150) }}>
+                    href="https://sandeep-blog-eight.vercel.app/">
                     Blogs
                 </a>
                 <a className={`text-gray-400 transition-colors hover:text-gray-200 ${isActive('#contact') ? 'text-white' : ''}`}
