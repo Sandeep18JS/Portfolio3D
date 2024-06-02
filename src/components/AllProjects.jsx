@@ -2,7 +2,7 @@ import React from 'react'
 
 const AllProjects = ({ projects }) => {
     return (
-        <div className='py-10  relative w-full mx-auto ' >
+        <div className='py-10  relative w-full mx-auto text-center' >
             <div>
                 {projects.map((project) => (
                     <div className=' mx-auto flex flex-col gap-4 lg:hidden mt-10 px-6' key={project.text}>
