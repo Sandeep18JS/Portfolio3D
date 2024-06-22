@@ -111,7 +111,7 @@ const Card = ({ url, texts, i, radius = 2.8, count = 12, ...props }) => {
             <Image
                 url='/image.jpg'
 
-                us={0.03}
+                radius={0.03}
                 color='#000050'
                 transparent={true}
                 opacity={0.3}

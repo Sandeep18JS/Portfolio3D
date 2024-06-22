@@ -25,7 +25,7 @@ const Contact = () => {
                             <a href="https://twitter.com/Sandeep_3Dev/" target="_blank" rel="noreferrer">
                                 <img src='/social/x.svg' className='w-7 h-7' alt="Example" />
                             </a>
-                            <a href="https://github.com/Sandeep18JS" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/" target="_blank" rel="noreferrer">
                                 <img src='/social/git.svg' className='w-7 h-7' alt="GitHub" />
                             </a>
                             <a href="https://www.instagram.com/sandeep_3dev/#" target="_blank" rel="noreferrer">
